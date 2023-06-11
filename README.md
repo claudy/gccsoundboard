@@ -35,7 +35,9 @@ The bodypack might have a gain adjustment on the pack. We never change it.
 Cardiod mics are used for vocalist mics. These reject rear noise, which is good because we are using stage monitors.
 
 # Loudness meter 📢
-Recommended loudness for our style goal is to have **peaks at 85** and constant loudness around 78 to 83 dBA. Also consider there are lots of little ears in the room so stay well below 88 dBA. Imagine hearing anything on stage naturally with only a gentle aid of amplification. Try to keep the amount of boost from the PA speakers at or slightly above the original source. Worded another way, there can be a big gap between a PA speaker and the original sound source; our style goal is to get that gap to be as small as possible.
+Recommended loudness for our style goal is to have **peaks at 85** and constant loudness around 78 to 83 dBA. Also consider there are lots of little ears in the room so stay well below 88 dBA. 
+
+Imagine hearing anything on stage naturally with the gentle aid of amplification. Try to keep the amount of boost from the PA speakers at or slightly above the original source. Worded another way, there can be a big gap between a PA speaker output and the original sound source; our style goal is to get that gap to be as small as possible.
 
 Sermon should _peak_ at 82 dBA or less so that congregational ears are not fatigued.
 
@@ -52,6 +54,9 @@ God's blessing - 79 dBA
 _These measurements are all A-weighted (dBA), which means the frequency curve of the device are adjusted to the human ear's response, which means the low end rumble will not affect the measurement. We want to measure loudness of things that are around 500 to 4000 hz (human voices) and don't really care how loud the low rumbles at 200 hz and below. If we did then we would measure C-weighted loudness instead of A-weighted loudness._
 
 # Other Notes
+### Shutdown order
+Turn the key to shutdown the amps BEFORE turning off the mixing console. This will prevent audio pops being sent to the PA amps.
+
 ### Accoustic Guitars 🎸
 Mute guitars when they are being plugged in and unplugged. Loud pops are unplesant.
 
@@ -62,4 +67,4 @@ The recording can be set to record only the pastor mic channel or the entire mai
 
 Clear out the USB if there is more than two sermons on the USB. It won't record if it runs out of space. 
 
-Beware that you can play back recordings of a sermon from the USB. Avoid pressing play during a service 😱
+Beware that you can play back recordings of a sermon from the USB. Avoid pressing **play** during a service 😱
