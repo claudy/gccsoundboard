@@ -42,14 +42,16 @@ Imagine hearing anything on stage naturally with the gentle aid of amplification
 Sermon should _peak_ at 82 dBA or less so that congregational ears are not fatigued.
 
 ## Example Service
-Maximum momentary peaks 
-Song 1 - 83 dBA
-Song 2 - 85 dBA
-Song 3 - 84 dBA
-Sermon - 78 dBA
-Song during distribution of the bread - 82 dBA
-Song during distribution of the wine - 81 dBA
-God's blessing - 79 dBA
+These were maximum momentary peaks measured during a real service that sounded good.
+| Part of the service                   | Decibels (dBA) |
+|---------------------------------------|----------------------------|
+| Song 1                                | 83                         |
+| Song 2                                | 85                         |
+| Song 3                                | 84                         |
+| Sermon                                | 78                         |
+| Song during distribution of the bread | 82                         |
+| Song during distribution of the wine  | 81                         |
+| God's blessing                        | 79                         |
 
 _These measurements are all A-weighted (dBA), which means the frequency curve of the device are adjusted to the human ear's response, which means the low end rumble will not affect the measurement. We want to measure loudness of things that are around 500 to 4000 hz (human voices) and don't really care how loud the low rumbles at 200 hz and below. If we did then we would measure C-weighted loudness instead of A-weighted loudness._
 
