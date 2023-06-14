@@ -3,33 +3,33 @@ Instructions and recommendations for operation of the GCC soundboard.
 
 # Recommended Fader Levels 🏆
 
-Main fader at -10.0
+**Main** fader at -10.0
 
 Reasons why:
 1. Other faders can be run at or near 0.0 which makes for best control for mixing.
 2. Fast peaks of loudness won't be overpowering when they happen
 3. Mixing mistakes will be harder to hear at lower levels. Mixing mistakes are easier to hear at 0 or +3.
 
-Monitors at -5.0
+**Monitors** at -5.0
 
 Reasons why:
 1. Loud enough that singers can hear themselves
 2. Avoids feedback loops with the [Beta 87C](https://pubs.shure.com/guide/BETA87C/en-US) stage mics
 
-Narthex at -5.0. This might need adjusted in the future.
+**Narthex** at -5.0. This might need adjusted in the future.
 
-ALS bus at 0.0
+**ALS** mixbus at 0.0
 
 Reasons why:
 1. The volume of the assisted listing system can be adjusted to taste by each individual.
 2. The bus is only for pulpit speaker and pastor mic pack. You can add stage mics on the fly by pressing **Fader Flip**.
 
 ### Pastor Mic 🎙
-Pastor fader should be run at 0.0. Adjust as needed for announcements, communion, etc. Run it as quiet as possible without making it hard to hear what is being said.
+Pastor fader should be run at 0.0. Adjust higher or lower as needed for announcements, communion, etc. Run it as quiet as possible without making it hard to hear what is being said.
 
-Pastor microphone is a Shure QLXD1 bodypack. It is an over-the-ear microphone. Find the paper manual in the desk. It has the frequency response printed on it for the microphone. The preamp gain can be lower than the gain we use for the stage mics because the pastor microphone is close to the person's mouth. This results in an excellent signal-to-noise ratio. I typically run the preamp gain so that the pastor is peaking at the top of the green zone (-18 dBu). Use the dynamic compressor to reduce the maximum amplitude by 6 dB during energitic moments of the sermon. On the dynammic compressor is a setting labeled **Gain** or **Makeup gain**. Set it to a positive number so that you can comfortably keep the fader at 0.0. The quiet moments are still audible in the PA speakers.
+The preamp gain can be lower than the gain we use for the stage mics because the pastor microphone is close to the person's mouth. This results in an excellent signal-to-noise ratio. I typically run the preamp gain so that the pastor is peaking at the top of the green zone (-18 dBu). Use the dynamic compressor to reduce the maximum amplitude by 6 dB during energitic moments of the sermon. On the dynammic compressor is a setting labeled **Gain** or **Makeup gain**. Set it to a positive number so that you can comfortably keep the fader at 0.0. The quiet moments are still audible in the PA speakers.
 
-The bodypack might have a gain adjustment on the pack. We never change it. 
+Pastor microphone is a Shure QLXD1 bodypack. It is an over-the-ear microphone. The bodypack might have a gain adjustment on the pack. We never change it. The paper manual is in the tech desk. It has the frequency response printed in it.
 
 ### Vocalist Mics
 Cardiod mics are used for vocalist mics. [Beta 87C](https://pubs.shure.com/guide/BETA87C/en-US) stage mics to be exact. These reject rear noise, which is good because we are using stage monitors.
@@ -123,7 +123,7 @@ If you want to record 24 tracks of audio to the DAW, say for a special service. 
 
 In the DAW on the Mac, start your inputs counting at 9. You'll have to do mental math of -8 to go from DAW input to soundboard's channel number.
 
-💡 Maybe we should use this for all our services, then we will have the option of mixing down afterwards or disposing of the recording. An option. Plus then we would have an audio-only recording of the sermon as its own track.
+💡 Maybe we should use this for all our services. The benefit is that we would have the option of mixing down after service or disposing of the recording. Plus then we would have a recorded track of the sermon onto which FX could be applied, adjusted, before rendering/exporting.
 
 ### Analog Outputs 
 These signals go to the amplifiers for the PA speakers🔊. For years, a copy of these are also sent over the Klark Teknik DN32-USB.
@@ -136,14 +136,14 @@ These signals go to the amplifiers for the PA speakers🔊. For years, a copy of
 7. Narthex
 8. ALS
 
-### Bus 5 quirk
-If I turn up bus 5 all the way, it becomes audible from the main PAs. 😲 I think its the main PAs. Hard to say. Either way, I don't trust it now because I don't understand why that would happen.
+### Mixbus 5 quirk
+If I turn up bus 5 all the way, it becomes audible from the main PAs. 😲 I think I was hearing mixbus 5 in the main PAs. I don't trust it now because I don't understand why that would happen.
 
-### Bus 6 quirk
-Scribble strip display for Bus 6 is broken. The channel works fine despite the lack of text in the scribble strip. 
+### Mixbus 6 quirk
+Scribble strip display for bus 6 is broken. The channel works fine despite the lack of text in the scribble strip. 
 
 ### AudioTechnica ATR2 mic input
-It is analog and it is terribly noisy. It is taking output from a mono aux jack (Aux Out 5 if I recall). Clipping was an issue. Use it only as a last resort backup.
+It is analog-to-digital and is terribly noisy. The output from a mono aux jack (Aux Out 5 if I recall) being input via a 3.5mm mic input was not as good an idea as I thought. Clipping was an issue. Use it only as a last resort backup.
 
 ### Insert an FX to a channel
 In the FX section of the board is ability to simulate great classic compressors like the 1176 and LA-2A. 🤩 Someday I will get around to adding an LA-2A to the pastor mic. 
