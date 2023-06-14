@@ -24,23 +24,6 @@ Reasons why:
 1. The volume of the assisted listing system can be adjusted to taste by each individual.
 2. The bus is only for pulpit speaker and pastor mic pack. You can add stage mics on the fly by pressing **Fader Flip**.
 
-### Pastor Mic 🎙
-Pastor fader should be run at 0.0. Adjust higher or lower as needed for announcements, communion, etc. Run it as quiet as possible without making it hard to hear what is being said.
-
-The preamp gain can be lower than the gain we use for the stage mics because the pastor microphone is close to the person's mouth. This results in an excellent signal-to-noise ratio. I typically run the preamp gain so that the pastor is peaking at the top of the green zone (-18 dBu). Use the dynamic compressor to reduce the maximum amplitude by 6 dB during energitic moments of the sermon. On the dynammic compressor is a setting labeled **Gain** or **Makeup gain**. Set it to a positive number so that you can comfortably keep the fader at 0.0. The quiet moments are still audible in the PA speakers.
-
-Pastor microphone is a Shure QLXD1 bodypack. It is an over-the-ear microphone. The bodypack might have a gain adjustment on the pack. We never change it. The paper manual is in the tech desk. It has the frequency response printed in it.
-
-### Vocalist Mics
-Cardiod mics are used for vocalist mics. [Beta 87C](https://pubs.shure.com/guide/BETA87C/en-US) stage mics to be exact. These reject rear noise, which is good because we are using stage monitors.
-
-![image](https://github.com/claudy/gccsoundboard/assets/1810404/66612762-4ca1-47f6-a204-2b731ce6c6fa)
-
-When the mics are held closer to the mouth, the bass frequencies will be greater. This is known as the [proximity effect](https://en.wikipedia.org/wiki/Proximity_effect_(audio)). Note the dotted line on the frequency response graph of the microphone.
-
-![image](https://github.com/claudy/gccsoundboard/assets/1810404/0b043ff6-6905-491d-943a-23bd2ee0d4a2)
-
-
 # Loudness meter 📢
 Quantitative rule of thumb: The recommended loudness for our style goal is to have [fast loudness](https://www.noisemeters.com/help/faq/time-weighting/#:~:text=Fast%20corresponds%20to%20a%20125,time%20constant%20of%2035%20ms.) **peaks at 85** and [slow loudness](https://www.noisemeters.com/help/faq/time-weighting/#:~:text=Fast%20corresponds%20to%20a%20125,time%20constant%20of%2035%20ms.) somewhere between 78 to 83 dBA. Also consider there are lots of little ears in the room so please stay well below 90 dBA.
 
@@ -61,6 +44,25 @@ These were maximum fast peaks measured during a real service that sounded good.
 | God's blessing                        | 79                         |
 
 _These measurements are all A-weighted (dBA), which means the frequency curve of the device are adjusted to the human ear's response, which means the low end rumble will not affect the measurement. We want to measure loudness of things that are around 500 to 4000 hz (human voices) and don't really care how loud the low rumbles at 200 hz and below. If we did then we would measure C-weighted loudness instead of A-weighted loudness._
+
+# Mics
+
+### Pastor Mic 🎙
+Pastor fader should be run at 0.0. Adjust higher or lower as needed for announcements, communion, etc. Run it as quiet as possible without making it hard to hear what is being said.
+
+The preamp gain can be lower than the gain we use for the stage mics because the pastor microphone is close to the person's mouth. This results in an excellent signal-to-noise ratio. I typically run the preamp gain so that the pastor is peaking at the top of the green zone (-18 dBu). Use the dynamic compressor to reduce the maximum amplitude by 6 dB during energitic moments of the sermon. On the dynammic compressor is a setting labeled **Gain** or **Makeup gain**. Set it to a positive number so that you can comfortably keep the fader at 0.0. The quiet moments are still audible in the PA speakers.
+
+Pastor microphone is a Shure QLXD1 bodypack. It is an over-the-ear microphone. The bodypack might have a gain adjustment on the pack. We never change it. The paper manual is in the tech desk. It has the frequency response printed in it.
+
+### Vocalist Mics
+Cardiod mics are used for vocalist mics. [Beta 87C](https://pubs.shure.com/guide/BETA87C/en-US) stage mics to be exact. These reject rear noise, which is good because we are using stage monitors.
+
+![image](https://github.com/claudy/gccsoundboard/assets/1810404/66612762-4ca1-47f6-a204-2b731ce6c6fa)
+
+When the mics are held closer to the mouth, the bass frequencies will be greater. This is known as the [proximity effect](https://en.wikipedia.org/wiki/Proximity_effect_(audio)). Note the dotted line on the frequency response graph of the microphone.
+
+![image](https://github.com/claudy/gccsoundboard/assets/1810404/0b043ff6-6905-491d-943a-23bd2ee0d4a2)
+
 
 # Other Notes
 ### Shutdown order of operations
