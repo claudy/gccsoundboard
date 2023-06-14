@@ -56,28 +56,29 @@ These were maximum momentary peaks measured during a real service that sounded g
 | Song 2                                | 85                         |
 | Song 3                                | 84                         |
 | Sermon                                | 78                         |
-| Song during distribution of the bread | 82                         |
-| Song during distribution of the wine  | 81                         |
+| Song during distribution of the bread 🍞| 82                         |
+| Song during distribution of the wine 🍷 | 81                         |
 | God's blessing                        | 79                         |
 
 _These measurements are all A-weighted (dBA), which means the frequency curve of the device are adjusted to the human ear's response, which means the low end rumble will not affect the measurement. We want to measure loudness of things that are around 500 to 4000 hz (human voices) and don't really care how loud the low rumbles at 200 hz and below. If we did then we would measure C-weighted loudness instead of A-weighted loudness._
 
 # Other Notes
-### Shutdown order
-Turn the key to shutdown the amps BEFORE turning off the mixing console. This will prevent audio pops being sent to the PA amps.
+### Shutdown order of operations
+Turn the key to shutdown the amps BEFORE turning off the mixing console. This will prevent audio pops being sent to the PA amps. 🙉
 
 ### Accoustic Guitars 🎸
-Mute guitars when they are being plugged in and unplugged. Loud pops are unplesant.
+Mute guitars when they are being plugged in and unplugged. Loud pops are unplesant. 🙉
 
-On the equalizer of the guitar, a gentle cut of about -4 dB in the 1000 hz range to make it easier to hear vocalists. You can _slowly_ drift that specific parameter back to -0 during solos without vocalists but be careful because changes to guitar sound in the middle of a song can seem unnatural.
+On the equalizer of a guitar, a gentle cut of about -4 dB in the 1000 hz range to make it easier to hear vocalists. You can _slowly_ drift that specific parameter back to -0 during solos without vocalists but be careful because changes to guitar sound in the middle of a song can seem unnatural.
 
-### USB recording ⏺️
+### USB recording 📼
 The recording can be set to record only the pastor mic channel or the entire main L/R output of the board. 
 
-Clear out the USB if there is more than two sermons on the USB. It won't record if it runs out of space. 
+Delete old recordings on the USB drive if there is more than two sermons. It is 2 GiB in size. Recording will stop if storage fills up. You'll have to do this on the Mac. You cannot delete recordings from the board UI.
 
 You can play back recordings of a sermon from the USB but only with deliberate effort. This is disabled by default to prevent playback during a service 😱. 
-The USB L & R playback faders are kept at negative infinity and muted. These faders can be found by pressing the _Aux In USB_ button, on the left under the _Inputs 17-32_ button.
+
+The USB L & R playback faders are kept at negative infinity ⬇ and muted 🔇. These faders can be found by pressing the _Aux In USB_ button, on the left under the _Inputs 17-32_ button.
 
 ### Mute Group
 Mute groups allow you to unmute entire groups of faders all at once. If you wanted you could simply press mute groups 1 through 4 and be mostly ready to go for practice.
@@ -124,8 +125,8 @@ In the DAW on the Mac, start your inputs counting at 9. You'll have to do mental
 
 💡 Maybe we should use this for all our services, then we will have the option of mixing down afterwards or disposing of the recording. An option. Plus then we would have an audio-only recording of the sermon as its own track.
 
-##### Analog Outputs 
-These signals go to the amplifiers for the PA speakers. For years, a copy of these are also sent over the Klark Teknik DN32-USB.
+### Analog Outputs 
+These signals go to the amplifiers for the PA speakers🔊. For years, a copy of these are also sent over the Klark Teknik DN32-USB.
 1. Main L
 2. Main R
 3. Monitor L 
@@ -134,3 +135,16 @@ These signals go to the amplifiers for the PA speakers. For years, a copy of the
 6. Montitor 4? (I forget)
 7. Narthex
 8. ALS
+
+### Bus 6 quirk
+Scribble strip display for Bus 6 is broken. The channel works fine despite the lack of text in the scribble strip. 
+
+### AudioTechnica ATR2 mic input
+It is analog and it is terribly noisy. It is taking output from a mono aux jack (Aux Out 5 if I recall). Clipping was an issue. Use it only as a last resort backup.
+
+### Insert an FX to a channel
+In the FX section of the board is ability to simulate great classic compressors like the 1176 and LA-2A. 🤩 Someday I will get around to adding an LA-2A to the pastor mic. 
+
+To get to this, click the **Library** button. Then ▶ on the direction buttons. Use one of the knobs (I forget which) to select the kind of FX outboard gear to put in the "FX rack".
+
+Finally, choose a channel you want to have affected and insert the FX unit into the channel signal flow, on the home page of the channel.
