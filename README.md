@@ -102,14 +102,14 @@ The **Routing** > **Card** settings, for the Klark Teknik DN32-USB 32x32-channel
 | 25-32        | AES50 A 25-32 |
 
 ### Routing, what one might typically see
-This is what you would use if you wanted to record all 32 tracks in a DAW.
+This is what you would use if you wanted to record all 32 tracks in a DAW. This configuration is available in Experiment Claudy (Scene save slot 12).
 | Card Outputs | Inputs        |
 |--------------|---------------|
 | 1-8          | AES50 A 1-8   |
 | 9-16         | AES50 A 9-16  |
 | 17-24        | AES50 A 17-24 |
 | 25-32        | AES50 A 25-32 |
-This configuration is available in Experiment Claudy (Scene save slot 12).
+
 
 #### Option for special events
 If you want to record 24 tracks of audio to the DAW, say for a special service. Configure the card output to be the following:
@@ -125,7 +125,7 @@ In the DAW on the Mac, start your inputs counting at 9. You'll have to do mental
 💡 Maybe we should use this for all our services, then we will have the option of mixing down afterwards or disposing of the recording. An option. Plus then we would have an audio-only recording of the sermon as its own track.
 
 ##### Analog Outputs 
-These signals go to the amplifiers for the PA speakers.
+These signals go to the amplifiers for the PA speakers. For years, a copy of these are also sent over the Klark Teknik DN32-USB.
 1. Main L
 2. Main R
 3. Monitor L 
