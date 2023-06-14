@@ -69,4 +69,17 @@ The recording can be set to record only the pastor mic channel or the entire mai
 
 Clear out the USB if there is more than two sermons on the USB. It won't record if it runs out of space. 
 
-Beware that you can play back recordings of a sermon from the USB. Avoid pressing **play** during a service 😱
+You can play back recordings of a sermon from the USB but only with deliberate effort. This is disabled by default to prevent playback during a service 😱. 
+The USB L & R playback faders are kept at negative infinity and muted. These faders can be found by pressing the _Aux In USB_ button, on the left under the _Inputs 17-32_ button.
+
+### Mute Group
+Mute groups allow you to unmute entire groups of faders all at once. If you wanted you could simply press mute groups 1 through 4 and be mostly ready to go for practice.
+| Mute Group | Description                                |
+|------------|--------------------------------------------|
+| 1          | Inputs 1-8, instruments                    |
+| 2          | Inputs 9-14, mostly vocal mics             |
+| 3          | Inputs 15-16, Pulpit mic and wireless pack |
+| 4          | Stage Monitors                             |
+
+### Stereo
+OBS sends stereo audio to YouTube.
