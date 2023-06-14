@@ -42,9 +42,9 @@ When the mics are held closer to the mouth, the bass frequencies will be greater
 
 
 # Loudness meter 📢
-Recommended loudness for our style goal is to have **peaks at 85** and constant loudness (a.k.a. [slow measurement](https://www.noisemeters.com/help/faq/time-weighting/#:~:text=Fast%20corresponds%20to%20a%20125,time%20constant%20of%2035%20ms.)) around 78 to 83 dBA. Also consider there are lots of little ears in the room so please stay well below 90 dBA. 
+Quantitative rule of thumb: The recommended loudness for our style goal is to have [fast loudness](https://www.noisemeters.com/help/faq/time-weighting/#:~:text=Fast%20corresponds%20to%20a%20125,time%20constant%20of%2035%20ms.) **peaks at 85** and [slow loudness](https://www.noisemeters.com/help/faq/time-weighting/#:~:text=Fast%20corresponds%20to%20a%20125,time%20constant%20of%2035%20ms.) somewhere between 78 to 83 dBA. Also consider there are lots of little ears in the room so please stay well below 90 dBA.
 
-Imagine hearing anything on stage naturally with the gentle aid of amplification. Try to keep the amount of boost from the PA speakers at or slightly above the original source. Worded another way, there can be a big gap between a PA speaker output and the original sound source; our style goal is to get that gap to be as small as possible.
+Descriptive rule of thumb: Imagine hearing anything on stage naturally with the gentle aid of amplification. Try to keep the amount of boost from the PA speakers at or slightly above the original source. Worded another way, it is easy to create a big loudness gap between what a PA speaker is pushing out and the original sound source; our style goal is to get that gap to be as small.
 
 Sermon should _peak_ at 82 dBA or less so that congregational ears are not fatigued.
 
@@ -102,6 +102,7 @@ The **Routing** > **Card** settings, for the Klark Teknik DN32-USB 32x32-channel
 | 25-32        | AES50 A 25-32 |
 
 ### Routing, what one might typically see
+This is what you would use if you wanted to record all 32 tracks in a DAW.
 | Card Outputs | Inputs        |
 |--------------|---------------|
 | 1-8          | AES50 A 1-8   |
@@ -109,9 +110,19 @@ The **Routing** > **Card** settings, for the Klark Teknik DN32-USB 32x32-channel
 | 17-24        | AES50 A 17-24 |
 | 25-32        | AES50 A 25-32 |
 This configuration is available in Experiment Claudy (Scene save slot 12).
-#### Option for special events
-If you want to record 32 tracks of audio to the Logic Pro X, say for a special
 
+#### Option for special events
+If you want to record 24 tracks of audio to the DAW, say for a special service. Configure the card output to be the following:
+| Card Outputs | Inputs        |
+|--------------|---------------|
+| 1-8          | (Analog) Outputs 1-8  _leave this alone_ | 
+| 9-16         | AES50 A 1-8   _change this_  |
+| 17-24        | AES50 A 9-16  _change this_  |
+| 25-32        | AES50 A 17-24  _change this_ |
+
+In the DAW on the Mac, start your inputs counting at 9. You'll have to do mental math of -8 to go from DAW input to soundboard's channel number.
+
+💡 Maybe we should use this for all our services, then we will have the option of mixing down afterwards or disposing of the recording. An option. Plus then we would have an audio-only recording of the sermon as its own track.
 
 ##### Analog Outputs 
 These signals go to the amplifiers for the PA speakers.
