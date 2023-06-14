@@ -90,3 +90,36 @@ Mute groups allow you to unmute entire groups of faders all at once. If you want
 
 ### Stereo
 OBS sends stereo audio to YouTube.
+
+### Routing, As of June 2023 
+The **Routing** > **Card** settings, for the Klark Teknik DN32-USB 32x32-channel card, is sending a copy of Analog Outputs 1-8 out for Card Outputs 1-8. Card Ouputs 1-32 go to the Mac.  OBS reads channel 1 and 2 and ignores all the other 3-32 inputs.
+
+| Card Outputs | Inputs        |
+|--------------|---------------|
+| 1-8          | (Analog) Outputs 1-8   |
+| 9-16         | AES50 A 9-16  |
+| 17-24        | AES50 A 17-24 |
+| 25-32        | AES50 A 25-32 |
+
+### Routing, what one might typically see
+| Card Outputs | Inputs        |
+|--------------|---------------|
+| 1-8          | AES50 A 1-8   |
+| 9-16         | AES50 A 9-16  |
+| 17-24        | AES50 A 17-24 |
+| 25-32        | AES50 A 25-32 |
+This configuration is available in Experiment Claudy (Scene save slot 12).
+#### Option for special events
+If you want to record 32 tracks of audio to the Logic Pro X, say for a special
+
+
+##### Analog Outputs 
+These signals go to the amplifiers for the PA speakers.
+1. Main L
+2. Main R
+3. Monitor L 
+4. Monitor R
+5. Monitor Piano
+6. Montitor 4? (I forget)
+7. Narthex
+8. ALS
