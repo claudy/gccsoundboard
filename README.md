@@ -7,7 +7,7 @@ Main fader at -10.0
 
 Reasons why:
 1. Other faders can be run at or near 0.0 which makes for best control for mixing.
-2. Momentary loudness won't be overpowering
+2. Fast peaks of loudness won't be overpowering when they happen
 3. Mixing mistakes will be harder to hear at lower levels. Mixing mistakes are easier to hear at 0 or +3.
 
 Monitors at -5.0
@@ -49,7 +49,7 @@ Descriptive rule of thumb: Imagine hearing anything on stage naturally with the 
 Sermon should _peak_ at 82 dBA or less so that congregational ears are not fatigued.
 
 ## Example Service
-These were maximum momentary peaks measured during a real service that sounded good.
+These were maximum fast peaks measured during a real service that sounded good.
 | Part of the service                   | Decibels (dBA) |
 |---------------------------------------|----------------------------|
 | Song 1                                | 83                         |
@@ -135,6 +135,9 @@ These signals go to the amplifiers for the PA speakers🔊. For years, a copy of
 6. Montitor 4? (I forget)
 7. Narthex
 8. ALS
+
+### Bus 5 quirk
+If I turn up bus 5 all the way, it becomes audible from the main PAs. 😲 I think its the main PAs. Hard to say. Either way, I don't trust it now because I don't understand why that would happen.
 
 ### Bus 6 quirk
 Scribble strip display for Bus 6 is broken. The channel works fine despite the lack of text in the scribble strip. 
