@@ -153,3 +153,15 @@ In the FX section of the board is ability to simulate great classic compressors 
 To get to this, click the **Library** button. Then ▶ on the direction buttons. Use one of the knobs (I forget which) to select the kind of FX outboard gear to put in the "FX rack".
 
 Finally, choose a channel you want to have affected and insert the FX unit into the channel signal flow, on the home page of the channel.
+
+No guide is complete without some flowcharts. Find where FX are applied in the flowchart.
+![SoundBoard1-Single channel drawio](https://github.com/claudy/gccsoundboard/assets/1810404/c602ee26-b42f-4df6-b5ae-dd477997680c)
+
+### Main Bus
+In theory, one can adjust settings on the main. Just because you can doesn't mean you should. 😏
+
+![SoundBoard2-Main Bus drawio](https://github.com/claudy/gccsoundboard/assets/1810404/93207c14-236d-454c-b913-7c6856f3f48c)
+
+
+### Aim, Action, Assess
+Decide what your aim is, take one action, assess if it got you closer to your aim. This is a process for making audio changes.
