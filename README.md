@@ -162,6 +162,15 @@ In theory, one can adjust settings on the main. Just because you can doesn't mea
 
 ![SoundBoard2-Main Bus drawio](https://github.com/claudy/gccsoundboard/assets/1810404/93207c14-236d-454c-b913-7c6856f3f48c)
 
+### Cool videos
+[How (Not) To Test Your Plugins](https://www.youtube.com/watch?v=1IH6N63AXu4), 1h 13m, really neat analysis of graphs of audio output from plugins.
+
+[M32 Feature Tour](https://www.youtube.com/watch?v=eTjJvCvO1Qw&ab_channel=RedOneMusicCanada), 38m, details on all those menus we never use at church
+
+### Batteries
+We use rechargeable AA batteries. They charge at the front right of the sanctuary.
+
+Before each service, check the wireless handheld mics, pulpit mic pack, and pastor mic pack for battery level. Anything less than 50% should be swapped out with full charge batteries.
 
 ### Aim, Action, Assess
 Decide what your aim is, take one action, assess if it got you closer to your aim. This is a process for making audio changes.
