@@ -144,8 +144,11 @@ If I turn up bus 5 all the way, it becomes audible from the main PAs. 😲 I thi
 ### Mixbus 6 quirk
 Scribble strip display for bus 6 is broken. The channel works fine despite the lack of text in the scribble strip. 
 
-### AudioTechnica ATR2 mic input
-It is analog-to-digital and is terribly noisy. The output from a mono aux jack (Aux Out 5 if I recall) being input via a 3.5mm mic input was not as good an idea as I thought. Clipping was an issue. Use it only as a last resort backup.
+### ~~AudioTechnica ATR2 mic input~~
+~~It is analog-to-digital and is terribly noisy. The output from a mono aux jack (Aux Out 5 if I recall) being input via a 3.5mm mic input was not as good an idea as I thought. Clipping was an issue. Use it only as a last resort backup.~~
+
+### Snippets
+There exists a copy-paste functionality in the **config** menu. First opt-in to copying speific properties from a channel. Then select the channel you want to copy. The properties copied become a "snippet" stored in memory, ready to be applied ("pasted") into another channel.
 
 ### Insert an FX to a channel
 In the FX section of the board is ability to simulate great classic compressors like the 1176 and LA-2A. 🤩 Someday I will get around to adding an LA-2A to the pastor mic. 
