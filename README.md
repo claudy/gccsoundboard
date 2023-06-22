@@ -151,14 +151,24 @@ Scribble strip display for bus 6 is broken. The channel works fine despite the l
 There exists a copy-paste functionality in the **config** menu. First opt-in to copying speific properties from a channel. Then select the channel you want to copy. The properties copied become a "snippet" stored in memory, ready to be applied ("pasted") into another channel.
 
 ### Insert an FX to a channel
-In the FX section of the board is ability to simulate great classic compressors like the 1176 and LA-2A. 🤩 Someday I will get around to adding an LA-2A to the pastor mic. 
+In the FX section of the board is ability to simulate great classic compressors like the 1176 and LA-2A. 🤩 There's also classic pultec amplifiers, guitar tube amps, de-essers, and reverb effects. 
 
-To get to this, click the **Library** button. Then ▶ on the direction buttons. Use one of the knobs (I forget which) to select the kind of FX outboard gear to put in the "FX rack".
+[Must watch guide to M32 FX inserts](https://www.youtube.com/watch?v=tH7QjLVNFlI&ab_channel=AlanHamiltonAudio)
 
-Finally, choose a channel you want to have affected and insert the FX unit into the channel signal flow, on the home page of the channel.
+Click the **Library** button to see the current FX racks in use. Then ▶ on the direction buttons. Use one of the knobs  to select the kind of FX outboard gear to put in the "FX rack".
+
+For FX bus sends... FX 1 sends is Bus 13, FX 2 is bus 14, and so on. You can control the reverb coming back by controlling the bus fader. Remember that you will need to adjust the bus send of the channel.
+
+For FX inserts... choose a channel you want to have competely affected and insert the FX unit into the channel signal flow, on the config page of the channel.
+
+Bonus points: [Multi-band compressor FX insert](https://www.youtube.com/watch?v=iSGLpaGNthU&list=PLWtgwSNlxTjMkeK69079lB1JnFH35Ji9t&index=9&ab_channel=AlanHamiltonAudio)
+
 
 No guide is complete without some flowcharts. Find where FX are applied in the flowchart.
 ![SoundBoard1-Single channel drawio](https://github.com/claudy/gccsoundboard/assets/1810404/c602ee26-b42f-4df6-b5ae-dd477997680c)
+
+### Assign
+Look at the **Assign** section of the soundboard. These four encoder knobs ("infinite pots") are customizable to be anything. Compressor attack and release...Settings on FX rack compressors...settings on the de-esser, etc. Map these by pressing view button in the Assign section, then choosing the button or encoder knob you wish to map.
 
 ### Main Bus
 In theory, one can adjust settings on the main. Just because you can doesn't mean you should. 😏
